@@ -202,7 +202,7 @@ footer>div{gap:var(--space-5)}
 .open-source-link:hover{color:#f5f5f2}
 .open-source-mobile{display:none}
 .external-mark{color:var(--accent);font-size:12px}
-@media(max-width:600px){.site-header nav{gap:8px}.site-header nav>a.open-source-link{display:inline-flex;font-size:10px}.open-source-desktop{display:none}.open-source-mobile{display:inline}.open-source-host{font-size:10px}.header-cta{padding:8px 9px}}
+@media(max-width:600px){.site-header nav{gap:8px}.site-header nav>a.open-source-link{display:inline-flex;font-size:10px}.open-source-desktop{display:none}.open-source-mobile{display:inline}.header-cta{padding:8px 9px}}
 .copy-icon{display:block;width:16px;height:16px;flex:0 0 16px;fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
 .copy-action,.copy-payment{gap:8px}
 .copy-link{display:grid;place-items:center}
@@ -227,3 +227,62 @@ button:has(>.qr-code-icon){display:inline-flex;align-items:center;gap:10px}
 .code-box{max-height:112px}
 .code-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-size:12px;line-height:1.6;letter-spacing:0;overflow-wrap:anywhere}
 @media(max-width:380px){.site-header nav{gap:8px}.header-cta{display:none}}
+
+/* Deep evergreen night theme with sea-glass as the restrained secondary color. */
+:root{--paper:#1c2924;--ink:#f3f2eb;--muted:#aab8b0;--accent:#85c9b5;--line:#d9eee51c;color:#f3f2eb;background:#111916}
+body{background:#111916;color:#f3f2eb}
+.site-shell{background:#17211d;color:#f3f2eb;border-color:#ffffff0c;box-shadow:0 28px 90px #0007}
+.brand{color:#f3f2eb}.brand b{color:#85c9b5}
+.site-header{border-color:#ffffff15}.site-header nav{color:#c0cbc4}
+.site-header nav a:hover,footer a:hover,footer button:hover{color:#85c9b5}
+.header-cta{background:#85c9b5;color:#17211d;border-color:#85c9b5}.header-cta span{color:#17211d}
+.hero h1,.section-heading h2,.how-intro h2,.closing h2{color:#f3f2eb}
+.hero h1 em,.section-heading h2 em,.how-intro h2 em{color:#85c9b5}
+.hero-text,.section-heading p,.how-intro p{color:#aab8b0}
+.eyebrow,.hero-footnote{color:#aab8b0}.eyebrow-dot{background:#85c9b5;box-shadow:0 0 0 4px #85c9b51c}
+.button.primary{background:#85c9b5;color:#15221d}.button.primary:hover{background:#a0dac9;box-shadow:0 8px 24px #85c9b528}
+.text-link{color:#e8eee9}.text-link .arrow-icon{color:#85c9b5}
+.tiny-check{color:#85c9b5;border-color:#648f80}
+.orbit{border-color:#d8eee512}.hero-visual:before{border-color:#d8eee50c;box-shadow:0 0 0 34px #d8eee504,0 0 0 68px #d8eee503}
+.float-note,.float-stamp{background:#202e28;color:#dce7e0;border-color:#ffffff1c;box-shadow:0 8px 24px #0004}.float-note span{color:#85c9b5}
+.trustline{border-color:#ffffff15;color:#aab8b0}.trustline>span{color:#899a90}.trustline div{color:#ccd5ce}.trustline i{color:#71877c}
+.tool-section{background:#1b2822}
+.section-heading .eyebrow,.how-intro .eyebrow{color:#a1b1a8}
+.section-heading h2,.how-intro h2{color:#f3f2eb}.section-heading h2 em,.how-intro h2 em{color:#85c9b5}
+.tool-card{background:#202e28;color:#f3f2eb;border-color:#ffffff18;box-shadow:0 18px 48px #0004}
+.tool-tabs{background:#202e28;border-color:#ffffff17}.tool-tabs>button{color:#b2c0b8}.tool-tabs>button.active{color:#f3f2eb}.tool-tabs>button.active:after{background:#85c9b5}
+.tool-tabs i{background:#85c9b51a;color:#9edcc9}.tab-note{color:#9aa99f}
+.tool-content,.embed-builder,.form-column{background:#202e28;color:#f3f2eb}
+.form-head h3{color:#f3f2eb}.form-head p,.step{color:#aab8b0}
+.field-label,.preset-select>span{color:#c0cbc4}
+.field-label input,.field-label select,.amount-entry,.preset-select button{background:#26362f;border-color:#44564d;color:#f3f2eb}
+.field-label input::placeholder{color:#94a49b}
+.field-label input:focus,.field-label select:focus,.amount-entry:focus-within{border-color:#85c9b5;box-shadow:0 0 0 3px #85c9b524}
+.required{color:#9edcc9}.optional{color:#a2afa7}
+.preset-select button.on,.preset-select button:hover{background:#304a40;border-color:#85c9b5;color:#f3f2eb}
+.advanced{border-color:#ffffff1c;color:#d6dfd9}.advanced summary span{color:#85c9b5}
+.color-controls label{color:#d6dfd9}.color-controls p,.embed-builder .field-label small{color:#aab8b0}
+.qr-presets span{color:#aab8b0}.qr-presets button{background:#26362f;border-color:#44564d;color:#d6dfd9}.qr-presets button:hover{border-color:#85c9b5}
+.privacy-note{color:#aab8b0}.form-error,.inline-error{color:#ffaaa0}
+.preview-column,.embed-preview{background:#17211d;border-color:#ffffff16}
+.preview-label{color:#c0cbc4}.preview-label i{color:#a0afa6}.preview-label i b{background:#85c9b5}
+.qr-paper{background:#202e28;border-color:#ffffff18;color:#f3f2eb;box-shadow:0 16px 40px #0004}
+.qr-kicker{color:#b8c4bd}.qr-recipient{color:#f3f2eb}.qr-caption{color:#aab8b0}
+.qr-code-well{background:#fff}.qr-placeholder{background:#f1f2ed;color:#52645a}
+.dark-button{background:#f0f2ed;color:#1b2822}.outline-button{border-color:#5c6a61;color:#e0e8e2}.outline-button:hover{border-color:#a6c5b7;background:#ffffff0a}
+.open-upi{color:#a6ddcb}.open-upi span{color:#85c9b5}
+.code-box{background:#17211d;border-color:#ffffff1c}.code-box code{color:#b5e1d3}
+.iframe-wrap{background:#26362f;border-color:#ffffff1c}.preview-url{color:#aab8b0}
+.how-steps article{border-color:#ffffff20}.how-steps article>span{color:#9aaba1}
+.step-icon{border-color:#ffffff2b;background:#202e28;color:#85c9b5}
+.how-steps h3{color:#eff2ed}.how-steps p{color:#aab8b0}
+.closing{background:#202e28;border-color:#ffffff18}.closing h2{color:#f3f2eb}.closing h2 em{color:#85c9b5}.closing p{color:#b2c0b8}
+footer{color:#aab8b0;border-color:#ffffff18}footer .brand{color:#f3f2eb}footer button{color:#b4c1ba}
+.open-source-link{color:#c0cbc4}.open-source-link:hover,.external-mark{color:#85c9b5}
+@media(max-width:380px){.site-header nav{gap:8px}.header-cta{display:none}}
+.widget.dark{--widget-accent:#85c9b5;background:#1c2924;color:#f3f2eb;border-color:#ffffff18}
+.widget.dark .widget-topline,.widget.dark .recipient-copy span,.widget.dark .widget-amount,.widget.dark .widget-custom{color:#c4d0c8}
+.widget.dark .widget-qr-frame{background:#fff}.widget.dark .copy-link{color:#dce7e0;border-color:#ffffff38}
+.widget.light{background:#fffdf8;color:#26372c;border-color:#e2ded3}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline-color:#85c9b5}
+@media(max-width:600px){body,.site-shell{background:#111916}.tool-section{background:#1b2822}}
