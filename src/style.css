@@ -207,6 +207,23 @@ footer>div{gap:var(--space-5)}
 .copy-action,.copy-payment{gap:8px}
 .copy-link{display:grid;place-items:center}
 .download-icon{display:block;width:16px;height:16px;flex:0 0 16px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.qr-code-icon{display:block;width:18px;height:18px;flex:0 0 18px;fill:currentColor}
+button:has(>.qr-code-icon){display:inline-flex;align-items:center;gap:10px}
+.tool-tabs>button>span:has(.qr-code-icon){display:inline-flex;align-items:center}
+.step-icon .qr-code-icon{width:20px;height:20px;flex-basis:20px}
 .preview-column .qr-paper{margin:var(--space-5) 0 0}
 .preview-column .qr-actions{margin-top:var(--space-5)}
+.field-row{align-items:start}
+.field-row>.field-label,.field-row>.preset-select{margin-top:0}
+.field-row>.field-label{line-height:12px}
+.preset-select>span{display:block;line-height:12px}
+.field-row .amount-entry,.field-row .preset-select>div{margin-top:var(--space-2)}
+.arrow-icon{display:inline-block;width:14px;height:14px;flex:0 0 14px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;vertical-align:middle}
+.text-link .arrow-icon,.external-mark .arrow-icon{color:var(--accent)}
+.pay-button .arrow-icon{width:15px;height:15px;flex-basis:15px}
+.verified-dot .arrow-icon{width:12px;height:12px;flex-basis:12px}
+.step-icon .arrow-icon{width:18px;height:18px;flex-basis:18px}
+.open-upi .arrow-icon,.preview-url .arrow-icon,footer a .arrow-icon{color:inherit}
+.code-box{max-height:112px}
+.code-box code{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-size:12px;line-height:1.6;letter-spacing:0;overflow-wrap:anywhere}
 @media(max-width:380px){.site-header nav{gap:8px}.header-cta{display:none}}
